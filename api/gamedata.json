@@ -1,26 +1,36 @@
 {
-    "teams": [
-        {
-            "id": 1,
-            "teamName": "",
-            "timestamp": ""
-        }
-    ],
-    "scores": [
-        {
-            "id": 1, 
-            "team": "",
-            "teamGameScore": "",
-            "timestamp":""
-        }
-    ],
-    "players": [
-        {
-            "id": 1, 
-            "firstName": "",
-            "lastName": "",
-            "countryOfOrigin": "",
-            "teamId": ""
-        }
-    ]
+  "teams": [
+    {
+      "id": 1,
+      "teamName": "",
+      "timestamp": ""
+    },
+    {
+      "teamName": "fdaf",
+      "timestamp": 1596135146219,
+      "id": 2
+    },
+    {
+      "teamName": "test",
+      "timestamp": 1596135166311,
+      "id": 3
+    }
+  ],
+  "scores": [
+    {
+      "id": 1,
+      "team": "",
+      "teamGameScore": "",
+      "timestamp": ""
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "firstName": "",
+      "lastName": "",
+      "countryOfOrigin": "",
+      "teamId": ""
+    }
+  ]
 }
