@@ -26,18 +26,16 @@ eventHub.addEventListener("click", clickEvent => {
     }
 })
 
-
+eventHub.addEventListener("new__team",()  =>{
+    render()
+})
 
 const render = () => {
         let allTeams = []
         getTeams()
         .then(() => { 
              allTeams = useTeams()
-        })
-        
-        
-
-    contentTarget.innerHTML = `
+             contentTarget.innerHTML = `
         <input type="text" id ="player--firstName" placeholder="First Name" /> 
         <input type="text" id ="player--lastName" placeholder="Last Name" /> 
         <input type="text" id ="player--countryOfOrigin" placeholder="Country of Origin" /> 
@@ -53,6 +51,11 @@ const render = () => {
             </select>
         <button id="savePlayer">Create Player</button>
     `
+        })
+        
+        
+
+    
 }
 
 export const PlayerForm = () => {
