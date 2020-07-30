@@ -17,6 +17,7 @@ eventHub.addEventListener("click", clickEvent => {
 
         // Change API state and application state
         saveTeam(newTeam)
+        
     }
 })
 
