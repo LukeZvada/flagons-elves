@@ -1,4 +1,5 @@
 import { savePlayers } from "./NewPlayerDataProvider.js";
+import { getTeams, useTeams } from "../NewTeam/NewTeamDataProvider.js";
 
 const contentTarget = document.querySelector(".new__player")
 const eventHub = document.querySelector(".container")
@@ -10,10 +11,9 @@ eventHub.addEventListener("click", clickEvent => {
         const playerFirstName = document.querySelector("#player--firstName")
         const playerLastName = document.querySelector("#player--lastName")
         const country = document.querySelector("#player--countryOfOrigin")
-        // const teamId = document.querySelector()
-        // Make a new object representation of a note. //
+
         const newPlayer = {
-            // Key/value pairs here
+          
             firstName: playerFirstName.value,
             lastName: playerLastName.value,
             countryOfOrigin: country.value
@@ -21,7 +21,7 @@ eventHub.addEventListener("click", clickEvent => {
 
         }
 
-        // Change API state and application state
+        
         savePlayers(newPlayer)
     }
 })
@@ -29,11 +29,28 @@ eventHub.addEventListener("click", clickEvent => {
 
 
 const render = () => {
+        let allTeams = []
+        getTeams()
+        .then(() => { 
+             allTeams = useTeams()
+        })
+        
+        
+
     contentTarget.innerHTML = `
         <input type="text" id ="player--firstName" placeholder="First Name" /> 
         <input type="text" id ="player--lastName" placeholder="Last Name" /> 
         <input type="text" id ="player--countryOfOrigin" placeholder="Country of Origin" /> 
-
+        <select class="dropdown" id="teamSelect">
+                <option value="0">Please select a team</option>
+                ${
+                    allTeams.map(
+                        teamObject => {
+                            return `<option value="${ teamObject.id }">${teamObject.teamName}</option>`
+                        }
+                    ).join("") 
+            }
+            </select>
         <button id="savePlayer">Create Player</button>
     `
 }

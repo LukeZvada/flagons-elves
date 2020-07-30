@@ -1,49 +1,24 @@
 {
   "teams": [
     {
-      "id": 1,
-      "teamName": "",
-      "timestamp": ""
-    },
-    {
-      "teamName": "fdaf",
-      "timestamp": 1596135146219,
+      "teamName": "Test Team",
+      "timestamp": 1596136966802,
       "id": 2
     },
     {
-      "teamName": "test",
-      "timestamp": 1596135166311,
+      "teamName": "Test",
+      "timestamp": 1596137727708,
       "id": 3
     },
     {
-      "teamName": "",
-      "timestamp": 1596136477636,
+      "teamName": "test ",
+      "timestamp": 1596138160462,
       "id": 4
     },
     {
-      "teamName": "",
-      "timestamp": 1596136500564,
+      "teamName": "test ",
+      "timestamp": 1596138163196,
       "id": 5
-    },
-    {
-      "teamName": "",
-      "timestamp": 1596136514856,
-      "id": 6
-    },
-    {
-      "teamName": "",
-      "timestamp": 1596136586914,
-      "id": 7
-    },
-    {
-      "teamName": "",
-      "timestamp": 1596136636498,
-      "id": 8
-    },
-    {
-      "teamName": "",
-      "timestamp": 1596136729706,
-      "id": 9
     }
   ],
   "scores": [
@@ -56,17 +31,10 @@
   ],
   "players": [
     {
-      "id": 1,
-      "firstName": "",
-      "lastName": "",
-      "countryOfOrigin": "",
-      "teamId": ""
-    },
-    {
-      "firstName": "Luke",
-      "lastName": "Z",
-      "countryOfOrigin": "USA",
-      "id": 2
+      "firstName": "Test",
+      "lastName": "Player",
+      "countryOfOrigin": "Test Country",
+      "id": 1
     }
   ]
 }
