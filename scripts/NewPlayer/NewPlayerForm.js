@@ -26,34 +26,37 @@ eventHub.addEventListener("click", clickEvent => {
     }
 })
 
-
+eventHub.addEventListener("new__team",()  =>{
+    render()
+})
 
 const render = () => {
         let allTeams = []
         getTeams()
         .then(() => { 
              allTeams = useTeams()
-            })
-            contentTarget.innerHTML = `
-                <input type="text" id ="player--firstName" placeholder="First Name" /> 
-                <input type="text" id ="player--lastName" placeholder="Last Name" /> 
-                <input type="text" id ="player--countryOfOrigin" placeholder="Country of Origin" /> 
-                <select class="dropdown" id="teamSelect">
-                        <option value="0">Please select a team</option>
-                        ${
-                            allTeams.map(
-                                teamObject => {
-                                    return `<option value="${ teamObject.id }">${teamObject.teamName}</option>`
-                                }
-                            ).join("") 
-                    }
-                    </select>
-                <button id="savePlayer">Create Player</button>
-            `
-        }
-            
+             contentTarget.innerHTML = `
+        <input type="text" id ="player--firstName" placeholder="First Name" /> 
+        <input type="text" id ="player--lastName" placeholder="Last Name" /> 
+        <input type="text" id ="player--countryOfOrigin" placeholder="Country of Origin" /> 
+        <select class="dropdown" id="teamSelect">
+                <option value="0">Please select a team</option>
+                ${
+                    allTeams.map(
+                        teamObject => {
+                            return `<option value="${ teamObject.id }">${teamObject.teamName}</option>`
+                        }
+                    ).join("") 
+            }
+            </select>
+        <button id="savePlayer">Create Player</button>
+    `
+        })
+        
         
 
+    
+}
 
 export const PlayerForm = () => {
     render()
