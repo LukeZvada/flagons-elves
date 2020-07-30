@@ -14,6 +14,36 @@
       "teamName": "test",
       "timestamp": 1596135166311,
       "id": 3
+    },
+    {
+      "teamName": "",
+      "timestamp": 1596136477636,
+      "id": 4
+    },
+    {
+      "teamName": "",
+      "timestamp": 1596136500564,
+      "id": 5
+    },
+    {
+      "teamName": "",
+      "timestamp": 1596136514856,
+      "id": 6
+    },
+    {
+      "teamName": "",
+      "timestamp": 1596136586914,
+      "id": 7
+    },
+    {
+      "teamName": "",
+      "timestamp": 1596136636498,
+      "id": 8
+    },
+    {
+      "teamName": "",
+      "timestamp": 1596136729706,
+      "id": 9
     }
   ],
   "scores": [
@@ -31,6 +61,12 @@
       "lastName": "",
       "countryOfOrigin": "",
       "teamId": ""
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Z",
+      "countryOfOrigin": "USA",
+      "id": 2
     }
   ]
 }
