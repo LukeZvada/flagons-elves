@@ -34,6 +34,16 @@
       "teamName": "test 7",
       "timestamp": 1596210910890,
       "id": 8
+    },
+    {
+      "teamName": "dsa",
+      "timestamp": 1596219984012,
+      "id": 9
+    },
+    {
+      "teamName": "test 10 ",
+      "timestamp": 1596220280858,
+      "id": 10
     }
   ],
   "scores": [
@@ -46,45 +56,67 @@
   ],
   "players": [
     {
-      "firstName": "Test",
-      "lastName": "Player",
-      "countryOfOrigin": "Test Country",
-      "id": 1
-    },
-    {
-      "firstName": "hey",
-      "lastName": "hi",
-      "countryOfOrigin": "USA",
-      "teamID": "2",
-      "id": 2
-    },
-    {
-      "firstName": "sm",
-      "lastName": "jg",
-      "countryOfOrigin": "USA",
-      "teamID": "2",
-      "id": 3
-    },
-    {
-      "firstName": "asdf",
-      "lastName": "asdf",
-      "countryOfOrigin": "asdf",
-      "teamId": "4",
-      "id": 4
-    },
-    {
-      "firstName": "asdf",
-      "lastName": "asdf",
-      "countryOfOrigin": "asdf",
-      "teamId": "6",
-      "id": 5
-    },
-    {
       "firstName": "asldkj",
       "lastName": "asdf",
       "countryOfOrigin": "fdsfa",
       "teamId": 8,
       "id": 6
+    },
+    {
+      "firstName": "dsa",
+      "lastName": "dsa",
+      "countryOfOrigin": "dsa",
+      "teamId": 4,
+      "id": 7
+    },
+    {
+      "firstName": "dsa",
+      "lastName": "dsa",
+      "countryOfOrigin": "dsa",
+      "teamId": 4,
+      "id": 8
+    },
+    {
+      "firstName": "dsa",
+      "lastName": "",
+      "countryOfOrigin": "dsa",
+      "teamId": 4,
+      "id": 9
+    },
+    {
+      "firstName": "dsa",
+      "lastName": "ds",
+      "countryOfOrigin": "dsa",
+      "teamId": 4,
+      "id": 10
+    },
+    {
+      "firstName": "fd",
+      "lastName": "fd",
+      "countryOfOrigin": "fd",
+      "teamId": 4,
+      "id": 11
+    },
+    {
+      "firstName": "ha",
+      "lastName": "ha",
+      "countryOfOrigin": "ah",
+      "teamId": 3,
+      "id": 12
+    },
+    {
+      "firstName": "fas",
+      "lastName": "fsa",
+      "countryOfOrigin": "fsa",
+      "teamId": 3,
+      "id": 13
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Z",
+      "countryOfOrigin": "USA",
+      "teamId": 10,
+      "id": 14
     }
   ]
 }
