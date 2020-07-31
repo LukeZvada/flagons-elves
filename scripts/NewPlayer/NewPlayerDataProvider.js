@@ -1,6 +1,6 @@
 let players = []
 
-export const usePlayers = () => teams.slice()
+export const usePlayers = () => players.slice()
 
 const eventHub = document.querySelector(".container")
 
@@ -29,3 +29,4 @@ export const savePlayers = team => {
     .then(getPlayers) 
     .then(dispatchStateChangeEvent) 
 }
+
