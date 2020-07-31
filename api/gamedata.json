@@ -19,6 +19,21 @@
       "teamName": "test 4",
       "timestamp": 1596141001091,
       "id": 5
+    },
+    {
+      "teamName": "test5",
+      "timestamp": 1596210789657,
+      "id": 6
+    },
+    {
+      "teamName": "test 6",
+      "timestamp": 1596210883689,
+      "id": 7
+    },
+    {
+      "teamName": "test 7",
+      "timestamp": 1596210910890,
+      "id": 8
     }
   ],
   "scores": [
@@ -35,6 +50,41 @@
       "lastName": "Player",
       "countryOfOrigin": "Test Country",
       "id": 1
+    },
+    {
+      "firstName": "hey",
+      "lastName": "hi",
+      "countryOfOrigin": "USA",
+      "teamID": "2",
+      "id": 2
+    },
+    {
+      "firstName": "sm",
+      "lastName": "jg",
+      "countryOfOrigin": "USA",
+      "teamID": "2",
+      "id": 3
+    },
+    {
+      "firstName": "asdf",
+      "lastName": "asdf",
+      "countryOfOrigin": "asdf",
+      "teamId": "4",
+      "id": 4
+    },
+    {
+      "firstName": "asdf",
+      "lastName": "asdf",
+      "countryOfOrigin": "asdf",
+      "teamId": "6",
+      "id": 5
+    },
+    {
+      "firstName": "asldkj",
+      "lastName": "asdf",
+      "countryOfOrigin": "fdsfa",
+      "teamId": 8,
+      "id": 6
     }
   ]
 }
