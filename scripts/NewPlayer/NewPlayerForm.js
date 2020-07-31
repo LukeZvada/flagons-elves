@@ -11,18 +11,20 @@ eventHub.addEventListener("click", clickEvent => {
         const playerFirstName = document.querySelector("#player--firstName")
         const playerLastName = document.querySelector("#player--lastName")
         const country = document.querySelector("#player--countryOfOrigin")
+        const teamName = document.getElementById("teamSelect")
 
         const newPlayer = {
           
             firstName: playerFirstName.value,
             lastName: playerLastName.value,
-            countryOfOrigin: country.value
-            // teamID: country.value
+            countryOfOrigin: country.value,
+            teamId: parseInt(teamName.value)
 
         }
 
         
         savePlayers(newPlayer)
+        
     }
 })
 
@@ -44,7 +46,7 @@ const render = () => {
                 ${
                     allTeams.map(
                         teamObject => {
-                            return `<option value="${ teamObject.id }">${teamObject.teamName}</option>`
+                            return `<option class="team" value="${ teamObject.id }">${teamObject.teamName}</option>`
                         }
                     ).join("") 
             }
