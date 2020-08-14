@@ -1,5 +1,6 @@
 import { useTeams } from "../NewTeam/NewTeamDataProvider.js"
 import { usePlayers } from "../NewPlayer/NewPlayerDataProvider.js"
+import { LeaderboardList } from "./LeaderboardList.js"
 
 const contentTarget = document.querySelector(".teamName")
 const eventHub = document.querySelector(".container")
@@ -15,6 +16,6 @@ eventHub.addEventListener("new__player", ()=>{
                 team.totalPlayers += 1
             }
         }
-        console.log(team)
+        LeaderboardList()
     }
 })
