@@ -43,19 +43,3 @@ export const LeaderboardList = () => {
 
 
 
-// const eventHub = document.querySelector(".container")
-
-// eventHub.addEventListener("new__player", ()=>{
-//     const allTeams = useTeams()
-//     const allPlayers = usePlayers()
-
-//     for (const team of allTeams) { 
-//         team.totalPlayers = 0
-//         for (const player of allPlayers) {
-//             if(player.teamId === team.id) { 
-//                 team.totalPlayers += 1
-//             }
-//         }
-//         console.log(team)
-//     }
-// })
