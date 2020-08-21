@@ -1,6 +1,6 @@
 import { useTeams } from "../NewTeam/NewTeamDataProvider.js"
 import { usePlayers } from "../NewPlayer/NewPlayerDataProvider.js"
-import { LeaderboardList } from "./LeaderboardList.js"
+import { LeaderboardList } from "./leaderboardlist.js"
 
 const contentTarget = document.querySelector(".teamName")
 const eventHub = document.querySelector(".container")
