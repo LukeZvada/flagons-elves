@@ -20,9 +20,27 @@ eventHub.addEventListener("click", clickEvent =>{
         ${teamList(allTeams)}
         ${teamList(allTeams)}
         ${teamList(allTeams)}
+        <button class="startGame"> Start Game </button> 
         `
     }
 })
+
+eventHub.addEventListener("click", clickEvent => { 
+    if(clickEvent.target.className === "startGame") { 
+        const allTeams = useTeams()
+
+        contentTarget.innerHTML = `
+            
+            <input type="text" class=team--one> </input> 
+            
+            <input type="text" class=team--one> </input> 
+            
+            <input type="text" class=team--one> </input> 
+        `
+    }
+})
+
+
 
 const teamList = (teams) =>{
       return  `
